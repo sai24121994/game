@@ -1,0 +1,160 @@
+#body {
+  margin: 0;
+  background-color: #F1F1F1;
+}
+
+h1, h2, h4, h6, p, ul {
+  font-family: "Montserrat";
+  color: #393E46;
+}
+
+/* navbar */
+
+#nav{
+  color: white;
+  padding: 5px 18px;
+}
+#nav:hover{
+  color: #00ADB5;
+}
+.navbar {
+  padding: 0 10px 0 10px;
+  background-color: #222831;
+}
+
+ .word{
+   color: #222831;
+ }
+
+.head{
+color: #222831;
+}
+#h3 {
+  color: #222831;
+}
+.text{
+  color: #393E46;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+.box{
+width: 3%;
+height: 3px;
+background-color: #00ADB5;
+border-radius: 2px;
+margin-left: 48.5%;
+margin-bottom: 5px;
+}
+
+/* profile */
+
+#box1 {
+  margin-top: 50px;
+  padding: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  text-align: right;
+}
+
+.profile-pic {
+  padding: 10px;
+  border-style: dashed;
+  border-color: #393E46;
+}
+
+.text {
+  width: 600px;
+}
+@media (max-width: 996px) {
+  .text, .text-head, .profile {
+    text-align: center;
+    width: 500px
+  }
+  .profile{
+    margin-bottom: 50px;
+  }
+
+}
+
+.container-fluid{
+  max-width: 1080px;
+}
+
+.container{
+  margin: 0 500px;
+ }
+
+.head{
+  font-family: 'Carattere', cursive;
+  font-size: 3.5rem;
+  margin-bottom: -5px;
+}
+#h5{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #222831;
+}
+
+#h5:hover{
+  color: #00ADB5;
+  transition-delay: 0.12s;
+  cursor: pointer;
+}
+
+.highlight {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #00ADB5;
+}
+
+.word {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#h3{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+/* portfoilo cards */
+.c_width{
+padding: 3% 10%;
+}
+
+/* Pricing */
+
+.mb-3{
+  padding: 3% 10%;
+}
+
+/* Contact us */
+.contact, .pricing, .cta{
+  text-align: center;
+  padding: 10px 10px 20px;
+  font-family: 'Montserrat';
+}
+
+.fa-brands{
+  padding: 25px 10px 10px;
+  color: #100F0F;
+}
+
+.fa-brands:hover{
+  transform:scale(1.2) rotate(5deg);
+  transition-delay: 0.2s;
+  transform-origin: bottom;
+  transform-style: flat;
+  transition-timing-function: ease;
+  color: #00ADB5;
+}
